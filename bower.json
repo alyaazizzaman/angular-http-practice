@@ -1,0 +1,22 @@
+{
+  "name": "angular-dependencies-practice",
+  "authors": [
+    "Alya Aziz-Zaman <alya.aziz.zaman@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap-colorpicker": "~3.0.23",
+    "angular-loading-bar": "~0.8.0"
+  }
+}
