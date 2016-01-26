@@ -1,17 +1,18 @@
 "use srtict";
 
-angular.modul('DemoApp')
+angular.module('DemoApp')
   .controller('DemoController', ['$http', DemoController]);
 
 function DemoController($http) {
+
   var vm = this;
 
   var config = {
-    method: 'GET';
-    url: '/subreddits/popular'
+    method: 'GET',
+    url: 'https://teamtreehouse.com/ethanweeks.json'
   };
 
-  $http(config).then(onSuccess, onFailiure)
+  $http(config).then(onSuccess, onFailure);
 
   function onSuccess(response) {
     console.log(response);
